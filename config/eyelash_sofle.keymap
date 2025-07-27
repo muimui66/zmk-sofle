@@ -25,7 +25,15 @@
     trigger-period-ms = <16>;
 };
 
-&mt { tapping-term-ms = <400>; };
+&mt {
+    tapping-term-ms = <400>;
+    flavor = "tap-preferred";
+};
+
+&lt {
+    tapping-term-ms = <300>;
+    flavor = "tap-preferred";
+};
 
 / {
     scroll_encoder: scroll_encoder {
@@ -43,6 +51,7 @@
 
         #binding-cells = <2>;
         tapping-term-ms = <400>;
+        flavor = "tap-preferred";
     };
 
     behaviors {
@@ -54,10 +63,10 @@
         layer0 {
             bindings = <
 &kp RG(NUMBER_1)  &kp RG(NUMBER_2)  &kp RG(NUMBER_3)    &kp RG(NUMBER_4)  &kp RG(NUMBER_5)  &kp RG(NUMBER_6)    &kp LG(UP)         &kp RG(NUMBER_7)  &kp LS(LA(LC(N)))  &kp LS(LA(LC(H)))  &kp RA(ESC)          &kp PRINTSCREEN  &kp RA(F4)
-&kp ESC           &kp Q             &kp L               &kp U             &kp COMMA         &kp PERIOD          &kp LG(DOWN)       &kp F             &kp W              &kp R              &kp Y                &kp P            &kp LG(V)
+&kp ESC           &kp Q             &kp L               &kp U             &kp COMMA         &kp PERIOD          &kp LG(DOWN)       &kp F             &kp W              &kp R              &kp Y                &kp P            &kp DELETE
 &caps_layer3 3 0  &kp E             &mt LEFT_CONTROL I  &mt LEFT_ALT A    &mt LEFT_SHIFT O  &kp MINUS           &kp LC(PAGE_UP)    &kp K             &mt RIGHT_SHIFT T  &mt RIGHT_ALT N    &mt RIGHT_CONTROL S  &kp H            &lt 3 RS(ENTER)
-&kp LSHFT         &kp Z             &kp X               &kp C             &kp V             &kp LC(C)           &kp LA(PAGE_DOWN)  &kp G             &kp D              &kp M              &kp J                &kp B            &kp RIGHT_SHIFT
-&kp LC(K)         &kp LEFT_GUI      &kp F17             &mt LEFT_GUI TAB  &lt 1 SPACE       &kp ENTER           &kp LG(D)          &lt 3 BACKSPACE   &lt 1 SPACE        &lt 2 F15          &kp F14              &kp RIGHT_GUI
+&kp LSHFT         &kp Z             &kp X               &kp C             &kp V             &kp BACKSPACE       &kp LA(PAGE_DOWN)  &kp G             &kp D              &kp M              &kp J                &kp B            &kp RIGHT_SHIFT
+&kp LC(K)         &kp LEFT_GUI      &kp F17             &mt LEFT_GUI TAB  &lt 1 SPACE       &kp LC(C)           &kp LG(D)          &kp ENTER         &lt 1 SPACE        &lt 2 F15          &kp F14              &kp RIGHT_GUI
             >;
 
             sensor-bindings = <&scroll_encoder>;
@@ -67,10 +76,10 @@
         layer_1 {
             bindings = <
 &trans          &trans        &trans        &trans        &trans        &trans          &mmv MOVE_UP     &trans           &trans        &trans     &trans           &trans     &trans
-&kp COLON       &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp NUMBER_4  &kp NUMBER_5    &mmv MOVE_DOWN   &kp PG_UP        &kp SLASH     &kp UP     &kp TILDE        &kp HOME   &kp DELETE
+&kp COLON       &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp NUMBER_4  &kp NUMBER_5    &mmv MOVE_DOWN   &kp PG_UP        &kp SLASH     &kp UP     &kp TILDE        &kp HOME   &kp LG(V)
 &trans          &kp NUMBER_6  &kp NUMBER_7  &kp NUMBER_8  &kp N9        &kp NUMBER_0    &mmv MOVE_LEFT   &kp PG_DN        &kp LEFT      &kp DOWN   &kp RIGHT_ARROW  &kp END    &trans
-&trans          &trans        &kp J         &kp K         &kp L         &kp LC(V)       &mmv MOVE_RIGHT  &kp EXCLAMATION  &kp QUESTION  &kp PLUS   &kp MINUS        &kp EQUAL  &trans
-&kp LC(C_MUTE)  &kp LC(S)     &trans        &trans        &trans        &trans          &mkp LCLK        &trans           &trans        &kp RC(Z)  &kp RC(RS(Z))    &trans
+&trans          &trans        &kp J         &kp K         &kp L         &trans          &mmv MOVE_RIGHT  &kp EXCLAMATION  &kp QUESTION  &kp PLUS   &kp MINUS        &kp EQUAL  &trans
+&kp LC(C_MUTE)  &kp LC(S)     &trans        &trans        &trans        &kp LC(V)       &mkp LCLK        &trans           &trans        &kp RC(Z)  &kp RC(RS(Z))    &trans
             >;
 
             display-name = "layer1";
@@ -82,8 +91,8 @@
 &trans     &trans         &trans          &trans                &trans                 &trans           &mmv MOVE_UP     &trans       &trans         &trans            &trans        &trans             &trans
 &trans     &kp BACKSLASH  &kp AT_SIGN     &kp LEFT_BRACE        &kp RIGHT_BRACE        &kp SEMICOLON    &mmv MOVE_DOWN   &kp CARET    &trans         &kp HASH          &trans        &kp SINGLE_QUOTE   &trans
 &trans     &kp PIPE       &kp UNDERSCORE  &kp LEFT_BRACKET      &kp RIGHT_BRACKET      &kp GRAVE        &mmv MOVE_LEFT   &kp PERCENT  &kp LESS_THAN  &kp GREATER_THAN  &kp ASTERISK  &kp DOUBLE_QUOTES  &trans
-&trans     &kp DOLLAR     &kp AMPERSAND   &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp LC(X)        &mmv MOVE_RIGHT  &trans       &trans         &trans            &trans        &trans             &trans
-&kp LC(K)  &trans         &trans          &trans                &trans                 &trans           &mkp LCLK        &trans       &trans         &trans            &trans        &trans
+&trans     &kp DOLLAR     &kp AMPERSAND   &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &trans           &mmv MOVE_RIGHT  &trans       &trans         &trans            &trans        &trans             &trans
+&kp LC(K)  &trans         &trans          &trans                &trans                 &kp LC(X)        &mkp LCLK        &trans       &trans         &trans            &trans        &trans
             >;
 
             sensor-bindings = <&inc_dec_kp PAGE_DOWN PAGE_UP>;
