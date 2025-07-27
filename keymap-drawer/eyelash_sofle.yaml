@@ -58,7 +58,7 @@ layers:
   - F17
   - {t: '$$mdi:keyboard-tab$$', h: '$$mdi:apple-keyboard-command$$'}
   - {t: '$$mdi:keyboard-space$$', h: layer1}
-  - Ctl+C
+  - {t: Ctl+C, h: '3'}
   - {t: D, h: '$$mdi:apple-keyboard-command$$'}
   - {t: '$$mdi:keyboard-return$$', type: enter}
   - {t: '$$mdi:keyboard-space$$', h: layer1}
@@ -94,9 +94,9 @@ layers:
   - {t: V, h: '$$mdi:apple-keyboard-command$$'}
   - {t: '$$mdi:transfer$$', type: trans}
   - '6'
-  - '7'
-  - '8'
-  - {t: '9', s: (}
+  - {t: '7', h: '$$mdi:apple-keyboard-control$$'}
+  - {t: '8', h: '$$mdi:apple-keyboard-option$$'}
+  - {t: '9', h: '$$mdi:apple-keyboard-shift$$'}
   - '0'
   - {t: '$$mdi:menu-left$$', s: '$$mdi:mouse$$'}
   - PG DN
@@ -159,15 +159,15 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - '|'
-  - _
-  - {t: '[', s: '{'}
-  - {t: ']', s: '}'}
+  - {t: _, h: '$$mdi:apple-keyboard-control$$'}
+  - {t: '[', h: '$$mdi:apple-keyboard-option$$', s: '{'}
+  - {t: ']', h: '$$mdi:apple-keyboard-shift$$', s: '}'}
   - {t: '`', s: '~'}
   - {t: '$$mdi:menu-left$$', s: '$$mdi:mouse$$'}
   - '%'
-  - <
-  - '>'
-  - '*'
+  - {t: <, h: '$$mdi:apple-keyboard-shift$$'}
+  - {t: '>', h: '$$mdi:apple-keyboard-option$$'}
+  - {t: '*', h: '$$mdi:apple-keyboard-control$$'}
   - '"'
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
@@ -253,7 +253,7 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
+  - {type: held alternate}
   - RGB TOG
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
