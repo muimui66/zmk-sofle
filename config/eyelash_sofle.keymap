@@ -88,11 +88,11 @@
 
         layer_2 {
             bindings = <
-&trans     &trans         &trans                       &trans                     &trans                        &trans           &mmv MOVE_UP     &trans       &trans                     &trans                      &trans                      &trans             &trans
-&trans     &kp BACKSLASH  &kp AT_SIGN                  &kp LEFT_BRACE             &kp RIGHT_BRACE               &kp SEMICOLON    &mmv MOVE_DOWN   &kp CARET    &trans                     &kp HASH                    &trans                      &kp SINGLE_QUOTE   &trans
-&trans     &kp PIPE       &mt LEFT_CONTROL UNDERSCORE  &mt LEFT_ALT LEFT_BRACKET  &mt LEFT_SHIFT RIGHT_BRACKET  &kp GRAVE        &mmv MOVE_LEFT   &kp PERCENT  &mt RIGHT_SHIFT LESS_THAN  &mt RIGHT_ALT GREATER_THAN  &mt RIGHT_CONTROL ASTERISK  &kp DOUBLE_QUOTES  &trans
-&trans     &kp DOLLAR     &kp AMPERSAND                &kp LEFT_PARENTHESIS       &kp RIGHT_PARENTHESIS         &kp LC(X)        &mmv MOVE_RIGHT  &trans       &trans                     &trans                      &trans                      &trans             &trans
-&kp LC(K)  &trans         &trans                       &trans                     &trans                        &trans           &mkp LCLK        &trans       &trans                     &kp LC(Z)                   &kp RC(RS(Z))               &trans
+&trans     &trans         &trans                       &trans                     &trans                        &trans           &mmv MOVE_UP     &trans           &trans                     &trans                      &trans                      &trans             &trans
+&trans     &kp BACKSLASH  &kp AT_SIGN                  &kp LEFT_BRACE             &kp RIGHT_BRACE               &kp SEMICOLON    &mmv MOVE_DOWN   &kp CARET        &kp SLASH                  &kp HASH                    &kp TILDE                   &kp SINGLE_QUOTE   &trans
+&trans     &kp PIPE       &mt LEFT_CONTROL UNDERSCORE  &mt LEFT_ALT LEFT_BRACKET  &mt LEFT_SHIFT RIGHT_BRACKET  &kp GRAVE        &mmv MOVE_LEFT   &kp PERCENT      &mt RIGHT_SHIFT LESS_THAN  &mt RIGHT_ALT GREATER_THAN  &mt RIGHT_CONTROL ASTERISK  &kp DOUBLE_QUOTES  &trans
+&trans     &kp DOLLAR     &kp AMPERSAND                &kp LEFT_PARENTHESIS       &kp RIGHT_PARENTHESIS         &kp LC(X)        &mmv MOVE_RIGHT  &kp EXCLAMATION  &kp QUESTION               &kp PLUS                    &kp MINUS                   &kp EQUAL          &trans
+&kp LC(K)  &trans         &trans                       &trans                     &trans                        &trans           &mkp LCLK        &trans           &trans                     &kp LC(Z)                   &kp RC(RS(Z))               &trans
             >;
 
             sensor-bindings = <&inc_dec_kp PAGE_DOWN PAGE_UP>;
