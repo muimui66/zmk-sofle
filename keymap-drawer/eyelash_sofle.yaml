@@ -55,15 +55,15 @@ layers:
   - $$mdi:apple-keyboard-shift$$
   - Ctl+K
   - $$mdi:apple-keyboard-command$$
-  - F17
-  - {t: '$$mdi:keyboard-tab$$', h: '$$mdi:apple-keyboard-command$$'}
-  - {t: '$$mdi:keyboard-space$$', h: layer1}
-  - {t: Ctl+C, h: '3'}
+  - F14
+  - {t: F17, h: '$$mdi:apple-keyboard-command$$'}
+  - {t: '$$mdi:keyboard-tab$$', h: '3'}
+  - {t: Ctl+C, h: '2'}
   - {t: D, h: '$$mdi:apple-keyboard-command$$'}
   - {t: '$$mdi:keyboard-return$$', type: enter}
   - {t: '$$mdi:keyboard-space$$', h: layer1}
-  - {t: F15, h: '2'}
-  - F14
+  - {t: F15, h: '$$mdi:apple-keyboard-command$$'}
+  - $$mdi:backspace-reverse-outline$$
   - RIGHT GUI
   layer1:
   - {t: '$$mdi:transfer$$', type: trans}
@@ -122,13 +122,13 @@ layers:
   - Ctl+S
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  - {type: held}
+  - {t: '$$mdi:transfer$$', type: trans}
   - Ctl+V
   - $$mdi:mouse-left-click-outline$$
   - {t: '$$mdi:transfer$$', type: trans}
-  - {type: held alternate}
-  - Ctl+Z
-  - Ctl+Sft+Z
+  - {type: held}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   '2':
   - {t: '$$mdi:transfer$$', type: trans}
@@ -175,7 +175,7 @@ layers:
   - '&'
   - (
   - )
-  - {t: '$$mdi:transfer$$', type: trans}
+  - Ctl+X
   - {t: '$$mdi:menu-right$$', s: '$$mdi:mouse$$'}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
@@ -188,12 +188,12 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  - Ctl+X
+  - {type: held}
   - $$mdi:mouse-left-click-outline$$
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  - {type: held}
-  - {t: '$$mdi:transfer$$', type: trans}
+  - Ctl+Z
+  - Ctl+Sft+Z
   - {t: '$$mdi:transfer$$', type: trans}
   '3':
   - {h: '1', s: '$$mdi:bluetooth-connect$$'}
@@ -252,8 +252,8 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
   - {type: held alternate}
+  - {t: '$$mdi:transfer$$', type: trans}
   - RGB TOG
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
