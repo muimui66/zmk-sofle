@@ -57,12 +57,12 @@ layers:
   - $$mdi:apple-keyboard-command$$
   - F14
   - {t: F17, h: '$$mdi:apple-keyboard-command$$'}
-  - {t: '$$mdi:keyboard-tab$$', h: '3'}
+  - {t: '$$mdi:keyboard-tab$$', h: layer1}
   - {t: Ctl+C, h: '2'}
   - {t: D, h: '$$mdi:apple-keyboard-command$$'}
   - {t: '$$mdi:keyboard-return$$', type: enter}
   - {t: '$$mdi:keyboard-space$$', h: layer1}
-  - {t: F15, h: '$$mdi:apple-keyboard-command$$'}
+  - {t: F15, h: '3'}
   - $$mdi:backspace-reverse-outline$$
   - RIGHT GUI
   layer1:
@@ -122,13 +122,13 @@ layers:
   - Ctl+S
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
+  - {type: held}
   - Ctl+V
   - $$mdi:mouse-left-click-outline$$
   - {t: '$$mdi:transfer$$', type: trans}
-  - {type: held}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
+  - {type: held alternate}
+  - Ctl+Z
+  - Ctl+Sft+Z
   - {t: '$$mdi:transfer$$', type: trans}
   '2':
   - {t: '$$mdi:transfer$$', type: trans}
@@ -209,7 +209,7 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  - CALCULATOR
+  - CALC
   - F1
   - F2
   - F3
@@ -217,7 +217,7 @@ layers:
   - F5
   - RGB HUD
   - RGB BRI
-  - RGB SPI
+  - RGB EFF
   - $$mdi:volume-high$$
   - $$mdi:volume-off$$
   - $$mdi:brightness-5$$
@@ -230,9 +230,9 @@ layers:
   - F10
   - RGB SAI
   - RGB BRD
-  - RGB SPD
-  - $$mdi:volume-low$$
-  - BRIGHTNESS MINIMUM
+  - $$mdi:apple-keyboard-shift$$
+  - {t: '$$mdi:volume-low$$', h: '$$mdi:apple-keyboard-option$$'}
+  - {t: BRIGHTNESS MINIMUM, h: '$$mdi:apple-keyboard-control$$'}
   - $$mdi:brightness-7$$
   - {type: held alternate}
   - {t: '$$mdi:transfer$$', type: trans}
@@ -243,7 +243,7 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - RGB SAD
   - {t: '$$mdi:transfer$$', type: trans}
-  - RGB EFF
+  - RGB SPI
   - $$mdi:skip-previous$$
   - PLAY PAUSE
   - $$mdi:skip-next$$
@@ -252,11 +252,11 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  - {type: held alternate}
+  - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - RGB TOG
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: RGB SPD, type: held alternate}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
