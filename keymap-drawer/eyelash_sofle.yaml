@@ -152,9 +152,9 @@ layers:
   - {t: ;, s: ':'}
   - {t: '$$mdi:menu-down$$', s: '$$mdi:mouse$$'}
   - ^
-  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: /, s: '?'}
   - '#'
-  - {t: '$$mdi:transfer$$', type: trans}
+  - '~'
   - {t: '''', s: '"'}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
@@ -177,11 +177,11 @@ layers:
   - )
   - Ctl+X
   - {t: '$$mdi:menu-right$$', s: '$$mdi:mouse$$'}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
+  - '!'
+  - '?'
+  - +
+  - {t: '-', s: _}
+  - {t: '=', s: +}
   - {t: '$$mdi:transfer$$', type: trans}
   - Ctl+K
   - {t: '$$mdi:transfer$$', type: trans}
