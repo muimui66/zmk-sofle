@@ -55,15 +55,15 @@ layers:
   - $$mdi:apple-keyboard-shift$$
   - Ctl+K
   - $$mdi:apple-keyboard-command$$
-  - F14
-  - {t: F17, h: '$$mdi:apple-keyboard-command$$'}
-  - {t: '$$mdi:keyboard-tab$$', h: layer1}
+  - F17
+  - {t: '$$mdi:keyboard-tab$$', h: '$$mdi:apple-keyboard-command$$'}
+  - {t: '$$mdi:keyboard-space$$', h: layer1}
   - {t: Ctl+C, h: '2'}
   - {t: D, h: '$$mdi:apple-keyboard-command$$'}
   - {t: '$$mdi:keyboard-return$$', type: enter}
   - {t: '$$mdi:keyboard-space$$', h: layer1}
   - {t: F15, h: '3'}
-  - $$mdi:backspace-reverse-outline$$
+  - F14
   - RIGHT GUI
   layer1:
   - {t: '$$mdi:transfer$$', type: trans}
@@ -106,9 +106,9 @@ layers:
   - END
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '[', s: '{'}
+  - {t: ']', s: '}'}
   - J
-  - K
   - L
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:menu-right$$', s: '$$mdi:mouse$$'}
