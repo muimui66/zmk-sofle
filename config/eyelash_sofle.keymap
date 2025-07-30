@@ -66,7 +66,7 @@
 &kp ESC           &kp Q             &kp L               &kp U             &kp COMMA         &kp PERIOD          &kp LG(DOWN)       &kp F             &kp W              &kp R              &kp Y                &kp P            &kp DELETE
 &caps_layer3 3 0  &kp E             &mt LEFT_CONTROL I  &mt LEFT_ALT A    &mt LEFT_SHIFT O  &kp MINUS           &kp LC(PAGE_UP)    &kp K             &mt RIGHT_SHIFT T  &mt RIGHT_ALT N    &mt RIGHT_CONTROL S  &kp H            &lt 3 RS(ENTER)
 &kp LSHFT         &kp Z             &kp X               &kp C             &kp V             &kp BACKSPACE       &kp LA(PAGE_DOWN)  &kp G             &kp D              &kp M              &kp J                &kp B            &kp RIGHT_SHIFT
-&kp LC(K)         &kp LEFT_GUI      &kp F14             &mt LEFT_GUI F17  &lt 1 TAB         &lt 2 LC(C)         &kp LG(D)          &kp ENTER         &lt 1 SPACE        &lt 3 F15          &kp DELETE           &kp RIGHT_GUI
+&kp LC(K)         &kp LEFT_GUI      &kp F17             &mt LEFT_GUI TAB  &lt 1 SPACE       &lt 2 LC(C)         &kp LG(D)          &kp ENTER         &lt 1 SPACE        &lt 3 F15          &kp F14              &kp RIGHT_GUI
             >;
 
             sensor-bindings = <&scroll_encoder>;
@@ -75,11 +75,11 @@
 
         layer_1 {
             bindings = <
-&trans          &trans        &trans                     &trans                 &trans                   &trans          &mmv MOVE_UP     &trans           &trans        &trans     &trans           &trans     &trans
-&kp COLON       &kp NUMBER_1  &kp NUMBER_2               &kp NUMBER_3           &kp NUMBER_4             &kp NUMBER_5    &mmv MOVE_DOWN   &kp PG_UP        &kp SLASH     &kp UP     &kp TILDE        &kp HOME   &kp LG(V)
-&trans          &kp NUMBER_6  &mt LEFT_CONTROL NUMBER_7  &mt LEFT_ALT NUMBER_8  &mt LEFT_SHIFT NUMBER_9  &kp NUMBER_0    &mmv MOVE_LEFT   &kp PG_DN        &kp LEFT      &kp DOWN   &kp RIGHT_ARROW  &kp END    &trans
-&trans          &trans        &kp J                      &kp K                  &kp L                    &trans          &mmv MOVE_RIGHT  &kp EXCLAMATION  &kp QUESTION  &kp PLUS   &kp MINUS        &kp EQUAL  &trans
-&kp LC(C_MUTE)  &kp LC(S)     &trans                     &trans                 &trans                   &kp LC(V)       &mkp LCLK        &trans           &trans        &kp LC(Z)  &kp RC(RS(Z))    &trans
+&trans          &trans            &trans                     &trans                 &trans                   &trans          &mmv MOVE_UP     &trans           &trans        &trans     &trans           &trans     &trans
+&kp COLON       &kp NUMBER_1      &kp NUMBER_2               &kp NUMBER_3           &kp NUMBER_4             &kp NUMBER_5    &mmv MOVE_DOWN   &kp PG_UP        &kp SLASH     &kp UP     &kp TILDE        &kp HOME   &kp LG(V)
+&trans          &kp NUMBER_6      &mt LEFT_CONTROL NUMBER_7  &mt LEFT_ALT NUMBER_8  &mt LEFT_SHIFT NUMBER_9  &kp NUMBER_0    &mmv MOVE_LEFT   &kp PG_DN        &kp LEFT      &kp DOWN   &kp RIGHT_ARROW  &kp END    &trans
+&trans          &kp LEFT_BRACKET  &kp RBKT                   &kp J                  &kp L                    &trans          &mmv MOVE_RIGHT  &kp EXCLAMATION  &kp QUESTION  &kp PLUS   &kp MINUS        &kp EQUAL  &trans
+&kp LC(C_MUTE)  &kp LC(S)         &trans                     &trans                 &trans                   &kp LC(V)       &mkp LCLK        &trans           &trans        &kp LC(Z)  &kp RC(RS(Z))    &trans
             >;
 
             display-name = "layer1";
