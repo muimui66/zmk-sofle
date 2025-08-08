@@ -75,11 +75,11 @@
 
         layer_1 {
             bindings = <
-&trans          &trans            &trans                     &trans                 &trans                   &trans          &mmv MOVE_UP     &trans           &trans        &trans     &trans           &trans     &trans
-&kp COLON       &kp NUMBER_1      &kp NUMBER_2               &kp NUMBER_3           &kp NUMBER_4             &kp NUMBER_5    &mmv MOVE_DOWN   &kp PG_UP        &kp SLASH     &kp UP     &kp TILDE        &kp HOME   &kp LG(V)
-&trans          &kp NUMBER_6      &mt LEFT_CONTROL NUMBER_7  &mt LEFT_ALT NUMBER_8  &mt LEFT_SHIFT NUMBER_9  &kp NUMBER_0    &mmv MOVE_LEFT   &kp PG_DN        &kp LEFT      &kp DOWN   &kp RIGHT_ARROW  &kp END    &trans
-&trans          &kp LEFT_BRACKET  &kp RBKT                   &kp J                  &kp L                    &trans          &mmv MOVE_RIGHT  &kp EXCLAMATION  &kp QUESTION  &kp PLUS   &kp MINUS        &kp EQUAL  &trans
-&kp LC(C_MUTE)  &kp LC(S)         &trans                     &trans                 &trans                   &kp LC(V)       &mkp LCLK        &trans           &trans        &kp LC(Z)  &kp RC(RS(Z))    &trans
+&trans          &trans            &trans                     &trans           &trans                   &trans               &mmv MOVE_UP     &trans           &trans        &trans     &trans           &trans     &trans
+&trans          &kp COLON         &kp NUMBER_1               &kp NUMBER_2     &kp NUMBER_3             &kp PERCENT          &mmv MOVE_DOWN   &kp PG_UP        &kp SLASH     &kp UP     &kp TILDE        &kp HOME   &kp LG(V)
+&trans          &kp LEFT_BRACKET  &mt LEFT_CONTROL NUMBER_4  &mt LEFT_ALT N5  &mt LEFT_SHIFT NUMBER_6  &kp RIGHT_BRACKET    &mmv MOVE_LEFT   &kp PG_DN        &kp LEFT      &kp DOWN   &kp RIGHT_ARROW  &kp END    &trans
+&trans          &kp N7            &kp N8                     &kp N9           &kp N0                   &trans               &mmv MOVE_RIGHT  &kp EXCLAMATION  &kp QUESTION  &kp PLUS   &kp MINUS        &kp EQUAL  &trans
+&kp LC(C_MUTE)  &kp LC(S)         &trans                     &trans           &trans                   &kp LC(V)            &mkp LCLK        &trans           &trans        &kp LC(Z)  &kp RC(RS(Z))    &trans
             >;
 
             display-name = "layer1";
@@ -88,11 +88,11 @@
 
         layer_2 {
             bindings = <
-&trans     &trans         &trans                       &trans                     &trans                        &trans           &mmv MOVE_UP     &trans           &trans                     &trans                      &trans                      &trans             &trans
-&trans     &kp BACKSLASH  &kp AT_SIGN                  &kp LEFT_BRACE             &kp RIGHT_BRACE               &kp SEMICOLON    &mmv MOVE_DOWN   &kp CARET        &kp SLASH                  &kp HASH                    &kp TILDE                   &kp SINGLE_QUOTE   &trans
-&trans     &kp PIPE       &mt LEFT_CONTROL UNDERSCORE  &mt LEFT_ALT LEFT_BRACKET  &mt LEFT_SHIFT RIGHT_BRACKET  &kp GRAVE        &mmv MOVE_LEFT   &kp PERCENT      &mt RIGHT_SHIFT LESS_THAN  &mt RIGHT_ALT GREATER_THAN  &mt RIGHT_CONTROL ASTERISK  &kp DOUBLE_QUOTES  &trans
-&trans     &kp DOLLAR     &kp AMPERSAND                &kp LEFT_PARENTHESIS       &kp RIGHT_PARENTHESIS         &kp LC(X)        &mmv MOVE_RIGHT  &kp EXCLAMATION  &kp QUESTION               &kp PLUS                    &kp MINUS                   &kp EQUAL          &trans
-&kp LC(K)  &trans         &trans                       &trans                     &trans                        &trans           &mkp LCLK        &trans           &trans                     &kp LC(Z)                   &kp RC(RS(Z))               &trans
+&trans     &trans         &trans                         &trans                   &trans                        &trans           &mmv MOVE_UP     &trans           &trans                     &trans                      &trans                      &trans             &trans
+&trans     &kp BACKSLASH  &kp LEFT_BRACE                 &kp AT_SIGN              &kp RIGHT_BRACE               &kp SEMICOLON    &mmv MOVE_DOWN   &kp CARET        &kp SLASH                  &kp HASH                    &kp TILDE                   &kp SINGLE_QUOTE   &trans
+&trans     &kp PIPE       &mt LEFT_CONTROL LEFT_BRACKET  &mt LEFT_ALT UNDERSCORE  &mt LEFT_SHIFT RIGHT_BRACKET  &kp GRAVE        &mmv MOVE_LEFT   &kp PERCENT      &mt RIGHT_SHIFT LESS_THAN  &mt RIGHT_ALT GREATER_THAN  &mt RIGHT_CONTROL ASTERISK  &kp DOUBLE_QUOTES  &trans
+&trans     &kp DOLLAR     &kp LEFT_PARENTHESIS           &kp AMPERSAND            &kp RIGHT_PARENTHESIS         &kp LC(X)        &mmv MOVE_RIGHT  &kp EXCLAMATION  &kp QUESTION               &kp PLUS                    &kp MINUS                   &kp EQUAL          &trans
+&kp LC(K)  &trans         &trans                         &trans                   &trans                        &trans           &mkp LCLK        &trans           &trans                     &kp LC(Z)                   &kp RC(RS(Z))               &trans
             >;
 
             sensor-bindings = <&inc_dec_kp PAGE_DOWN PAGE_UP>;
