@@ -79,12 +79,12 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
   - ':'
   - '1'
   - '2'
   - '3'
-  - '4'
-  - '5'
+  - '%'
   - {t: '$$mdi:menu-down$$', s: '$$mdi:mouse$$'}
   - PG UP
   - {t: /, s: '?'}
@@ -93,11 +93,11 @@ layers:
   - HOME
   - {t: V, h: '$$mdi:apple-keyboard-command$$'}
   - {t: '$$mdi:transfer$$', type: trans}
-  - '6'
-  - {t: '7', h: '$$mdi:apple-keyboard-control$$'}
-  - {t: '8', h: '$$mdi:apple-keyboard-option$$'}
-  - {t: '9', h: '$$mdi:apple-keyboard-shift$$'}
-  - '0'
+  - {t: '[', s: '{'}
+  - {t: '4', h: '$$mdi:apple-keyboard-control$$'}
+  - {t: '5', h: '$$mdi:apple-keyboard-option$$', s: '%'}
+  - {t: '6', h: '$$mdi:apple-keyboard-shift$$'}
+  - {t: ']', s: '}'}
   - {t: '$$mdi:menu-left$$', s: '$$mdi:mouse$$'}
   - PG DN
   - $$mdi:arrow-left-bold$$
@@ -106,10 +106,10 @@ layers:
   - END
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '[', s: '{'}
-  - {t: ']', s: '}'}
-  - J
-  - L
+  - {t: '7', s: '&'}
+  - {t: '8', s: '*'}
+  - {t: '9', s: (}
+  - {t: '0', s: )}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:menu-right$$', s: '$$mdi:mouse$$'}
   - '!'
@@ -146,8 +146,8 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: \, s: '|'}
-  - '@'
   - '{'
+  - '@'
   - '}'
   - {t: ;, s: ':'}
   - {t: '$$mdi:menu-down$$', s: '$$mdi:mouse$$'}
@@ -159,8 +159,8 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - '|'
-  - {t: _, h: '$$mdi:apple-keyboard-control$$'}
-  - {t: '[', h: '$$mdi:apple-keyboard-option$$', s: '{'}
+  - {t: '[', h: '$$mdi:apple-keyboard-control$$', s: '{'}
+  - {t: _, h: '$$mdi:apple-keyboard-option$$'}
   - {t: ']', h: '$$mdi:apple-keyboard-shift$$', s: '}'}
   - {t: '`', s: '~'}
   - {t: '$$mdi:menu-left$$', s: '$$mdi:mouse$$'}
@@ -172,8 +172,8 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - $
-  - '&'
   - (
+  - '&'
   - )
   - Ctl+X
   - {t: '$$mdi:menu-right$$', s: '$$mdi:mouse$$'}
