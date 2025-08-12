@@ -1,20 +1,20 @@
 layout: {zmk_keyboard: eyelash_sofle}
 layers:
   LAYER0:
+  - PRINTSCREEN
   - Gui+1
   - Gui+2
   - Gui+3
   - Gui+4
   - Gui+5
-  - Gui+6
   - Gui+$$mdi:arrow-up-bold$$
+  - Gui+6
   - Gui+7
   - Meh+N
-  - Meh+H
+  - AltGr+Sft+Ctl+H
   - AltGr+$$mdi:keyboard-esc$$
-  - PRINTSCREEN
   - AltGr+F4
-  - $$mdi:keyboard-esc$$
+  - Ctl+X
   - Q
   - L
   - U
@@ -27,26 +27,26 @@ layers:
   - Y
   - P
   - $$mdi:backspace-reverse-outline$$
-  - {t: '$$mdi:alpha-w-box$$', h: '3'}
+  - Ctl+C
   - E
   - {t: I, h: '$$mdi:apple-keyboard-control$$'}
   - {t: A, h: '$$mdi:apple-keyboard-option$$'}
   - {t: O, h: '$$mdi:apple-keyboard-shift$$'}
   - {t: '-', s: _}
-  - Ctl+PgUp
+  - Gui+$$mdi:arrow-left-bold$$
   - K
   - {t: T, h: '$$mdi:apple-keyboard-shift$$'}
   - {t: N, h: '$$mdi:apple-keyboard-option$$'}
   - {t: S, h: '$$mdi:apple-keyboard-control$$'}
   - H
-  - {t: 'Sft+$$mdi:keyboard-return$$', h: '3'}
-  - $$mdi:apple-keyboard-shift$$
+  - {t: 'Sft+$$mdi:keyboard-return$$', type: enter}
+  - Ctl+V
   - Z
   - X
   - C
   - V
-  - {t: '$$mdi:backspace$$', type: backspace}
-  - Alt+PgDn
+  - F6
+  - Gui+$$mdi:arrow-right-bold$$
   - G
   - D
   - M
@@ -55,13 +55,13 @@ layers:
   - $$mdi:apple-keyboard-shift$$
   - Ctl+K
   - $$mdi:apple-keyboard-command$$
-  - F17
-  - {t: '$$mdi:keyboard-tab$$', h: '$$mdi:apple-keyboard-command$$'}
-  - {t: '$$mdi:keyboard-space$$', h: layer1}
-  - {t: Ctl+C, h: '2'}
+  - $$mdi:keyboard-esc$$
+  - $$mdi:keyboard-tab$$
+  - {t: '$$mdi:backspace$$', type: backspace}
+  - {t: '$$mdi:keyboard-return$$', h: layer1}
   - {t: D, h: '$$mdi:apple-keyboard-command$$'}
-  - {t: '$$mdi:keyboard-return$$', type: enter}
-  - {t: '$$mdi:keyboard-space$$', h: layer1}
+  - $$mdi:keyboard-space$$
+  - {t: F17, h: '2'}
   - {t: F15, h: '3'}
   - F14
   - RIGHT GUI
@@ -80,15 +80,15 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  - ':'
+  - '%'
   - '1'
   - '2'
   - '3'
-  - '%'
+  - {t: V, h: '$$mdi:apple-keyboard-command$$'}
   - {t: '$$mdi:menu-down$$', s: '$$mdi:mouse$$'}
   - PG UP
   - {t: /, s: '?'}
-  - $$mdi:arrow-up-bold$$
+  - '#'
   - '~'
   - HOME
   - {t: V, h: '$$mdi:apple-keyboard-command$$'}
@@ -100,9 +100,9 @@ layers:
   - {t: ']', s: '}'}
   - {t: '$$mdi:menu-left$$', s: '$$mdi:mouse$$'}
   - PG DN
-  - $$mdi:arrow-left-bold$$
-  - $$mdi:arrow-down-bold$$
-  - $$mdi:arrow-right-bold$$
+  - {t: <, h: '$$mdi:apple-keyboard-shift$$'}
+  - {t: '*', h: '$$mdi:apple-keyboard-option$$'}
+  - {t: '>', h: '$$mdi:apple-keyboard-control$$'}
   - END
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
@@ -110,7 +110,7 @@ layers:
   - {t: '8', s: '*'}
   - {t: '9', s: (}
   - {t: '0', s: )}
-  - {t: '$$mdi:transfer$$', type: trans}
+  - ':'
   - {t: '$$mdi:menu-right$$', s: '$$mdi:mouse$$'}
   - '!'
   - '?'
@@ -120,13 +120,13 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - Ctl+$$mdi:volume-off$$
   - Ctl+S
+  - $$mdi:apple-keyboard-caps$$
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {type: held}
-  - Ctl+V
   - $$mdi:mouse-left-click-outline$$
   - {t: '$$mdi:transfer$$', type: trans}
-  - {type: held alternate}
+  - {t: '$$mdi:transfer$$', type: trans}
   - Ctl+Z
   - Ctl+Sft+Z
   - {t: '$$mdi:transfer$$', type: trans}
@@ -149,11 +149,11 @@ layers:
   - '{'
   - '@'
   - '}'
-  - {t: ;, s: ':'}
+  - {t: V, h: '$$mdi:apple-keyboard-command$$'}
   - {t: '$$mdi:menu-down$$', s: '$$mdi:mouse$$'}
   - ^
   - {t: /, s: '?'}
-  - '#'
+  - $$mdi:arrow-up-bold$$
   - '~'
   - {t: '''', s: '"'}
   - {t: '$$mdi:transfer$$', type: trans}
@@ -165,9 +165,9 @@ layers:
   - {t: '`', s: '~'}
   - {t: '$$mdi:menu-left$$', s: '$$mdi:mouse$$'}
   - '%'
-  - {t: <, h: '$$mdi:apple-keyboard-shift$$'}
-  - {t: '>', h: '$$mdi:apple-keyboard-option$$'}
-  - {t: '*', h: '$$mdi:apple-keyboard-control$$'}
+  - $$mdi:arrow-left-bold$$
+  - $$mdi:arrow-down-bold$$
+  - $$mdi:arrow-right-bold$$
   - '"'
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
@@ -175,7 +175,7 @@ layers:
   - (
   - '&'
   - )
-  - Ctl+X
+  - {t: ;, s: ':'}
   - {t: '$$mdi:menu-right$$', s: '$$mdi:mouse$$'}
   - '!'
   - '?'
@@ -188,10 +188,10 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  - {type: held}
+  - {t: '$$mdi:transfer$$', type: trans}
   - $$mdi:mouse-left-click-outline$$
   - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
+  - {type: held}
   - Ctl+Z
   - Ctl+Sft+Z
   - {t: '$$mdi:transfer$$', type: trans}
@@ -222,7 +222,7 @@ layers:
   - $$mdi:volume-off$$
   - $$mdi:brightness-5$$
   - {t: '$$mdi:transfer$$', type: trans}
-  - {type: held}
+  - {t: '$$mdi:transfer$$', type: trans}
   - F6
   - F7
   - F8
@@ -234,7 +234,7 @@ layers:
   - {t: '$$mdi:volume-low$$', h: '$$mdi:apple-keyboard-option$$'}
   - {t: BRIGHTNESS MINIMUM, h: '$$mdi:apple-keyboard-control$$'}
   - $$mdi:brightness-7$$
-  - {type: held alternate}
+  - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - F11
   - F12
@@ -257,6 +257,6 @@ layers:
   - RGB TOG
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  - {t: RGB SPD, type: held alternate}
+  - {t: RGB SPD, type: held}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
