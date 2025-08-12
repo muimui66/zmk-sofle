@@ -80,37 +80,37 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  - '%'
+  - (
   - '1'
   - '2'
   - '3'
-  - {t: V, h: '$$mdi:apple-keyboard-command$$'}
+  - )
   - {t: '$$mdi:menu-down$$', s: '$$mdi:mouse$$'}
   - {t: \, s: '|'}
   - {t: /, s: '?'}
-  - '#'
+  - '*'
   - '~'
-  - {t: '''', s: '"'}
+  - $
   - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: V, h: '$$mdi:apple-keyboard-command$$'}
   - {t: '[', s: '{'}
   - {t: '4', h: '$$mdi:apple-keyboard-control$$'}
   - {t: '5', h: '$$mdi:apple-keyboard-option$$', s: '%'}
   - {t: '6', h: '$$mdi:apple-keyboard-shift$$'}
   - {t: ']', s: '}'}
   - {t: '$$mdi:menu-left$$', s: '$$mdi:mouse$$'}
-  - ^
+  - '&'
   - {t: <, h: '$$mdi:apple-keyboard-shift$$'}
-  - {t: '*', h: '$$mdi:apple-keyboard-option$$'}
+  - {t: '%', h: '$$mdi:apple-keyboard-option$$'}
   - {t: '>', h: '$$mdi:apple-keyboard-control$$'}
-  - '"'
+  - '#'
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
+  - ':'
   - {t: '7', s: '&'}
   - {t: '8', s: '*'}
   - {t: '9', s: (}
   - {t: '0', s: )}
-  - ':'
   - {t: '$$mdi:menu-right$$', s: '$$mdi:mouse$$'}
   - '!'
   - '?'
@@ -125,10 +125,10 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {type: held}
   - $$mdi:mouse-left-click-outline$$
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
   - Ctl+Z
   - Ctl+Sft+Z
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   '2':
   - {t: '$$mdi:transfer$$', type: trans}
@@ -145,11 +145,11 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  - '%'
+  - (
   - '{'
   - '@'
   - '}'
-  - {t: '$$mdi:transfer$$', type: trans}
+  - )
   - {t: '$$mdi:menu-down$$', s: '$$mdi:mouse$$'}
   - PgUp
   - {t: /, s: '?'}
@@ -171,11 +171,11 @@ layers:
   - END
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  - $
-  - (
-  - '&'
-  - )
   - {t: ;, s: ':'}
+  - ^
+  - {t: '''', s: '"'}
+  - '"'
+  - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:menu-right$$', s: '$$mdi:mouse$$'}
   - '!'
   - '?'
@@ -187,13 +187,13 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
+  - $$mdi:alpha-w-box$$
+  - Ctl+S
   - $$mdi:mouse-left-click-outline$$
   - {type: held}
   - {t: '$$mdi:transfer$$', type: trans}
-  - Ctl+Z
-  - Ctl+Sft+Z
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   '3':
   - {h: '1', s: '$$mdi:bluetooth-connect$$'}
