@@ -91,7 +91,7 @@ layers:
   - '#'
   - '~'
   - HOME
-  - {t: V, h: '$$mdi:apple-keyboard-command$$'}
+  - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '[', s: '{'}
   - {t: '4', h: '$$mdi:apple-keyboard-control$$'}
@@ -145,26 +145,26 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  - {t: \, s: '|'}
+  - '%'
   - '{'
   - '@'
   - '}'
-  - {t: V, h: '$$mdi:apple-keyboard-command$$'}
+  - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:menu-down$$', s: '$$mdi:mouse$$'}
-  - ^
+  - \
   - {t: /, s: '?'}
   - $$mdi:arrow-up-bold$$
   - '~'
   - {t: '''', s: '"'}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  - '|'
-  - {t: '[', h: '$$mdi:apple-keyboard-control$$', s: '{'}
+  - {t: '[', s: '{'}
+  - {t: '|', h: '$$mdi:apple-keyboard-control$$'}
   - {t: _, h: '$$mdi:apple-keyboard-option$$'}
-  - {t: ']', h: '$$mdi:apple-keyboard-shift$$', s: '}'}
-  - {t: '`', s: '~'}
+  - {t: '`', h: '$$mdi:apple-keyboard-shift$$', s: '~'}
+  - {t: ']', s: '}'}
   - {t: '$$mdi:menu-left$$', s: '$$mdi:mouse$$'}
-  - '%'
+  - ^
   - $$mdi:arrow-left-bold$$
   - $$mdi:arrow-down-bold$$
   - $$mdi:arrow-right-bold$$
