@@ -60,9 +60,9 @@ layers:
   - {t: '$$mdi:backspace$$', type: backspace}
   - {t: '$$mdi:keyboard-return$$', h: layer1}
   - {t: D, h: '$$mdi:apple-keyboard-command$$'}
-  - $$mdi:keyboard-space$$
-  - {t: F17, h: '2'}
-  - {t: F15, h: '3'}
+  - {t: '$$mdi:keyboard-space$$', h: '2'}
+  - {t: F17, h: '3'}
+  - F15
   - F14
   - RIGHT GUI
   layer1:
@@ -86,11 +86,11 @@ layers:
   - '3'
   - {t: V, h: '$$mdi:apple-keyboard-command$$'}
   - {t: '$$mdi:menu-down$$', s: '$$mdi:mouse$$'}
-  - PG UP
+  - {t: \, s: '|'}
   - {t: /, s: '?'}
   - '#'
   - '~'
-  - HOME
+  - {t: '''', s: '"'}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '[', s: '{'}
@@ -99,11 +99,11 @@ layers:
   - {t: '6', h: '$$mdi:apple-keyboard-shift$$'}
   - {t: ']', s: '}'}
   - {t: '$$mdi:menu-left$$', s: '$$mdi:mouse$$'}
-  - PG DN
+  - ^
   - {t: <, h: '$$mdi:apple-keyboard-shift$$'}
   - {t: '*', h: '$$mdi:apple-keyboard-option$$'}
   - {t: '>', h: '$$mdi:apple-keyboard-control$$'}
-  - END
+  - '"'
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '7', s: '&'}
@@ -151,11 +151,11 @@ layers:
   - '}'
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:menu-down$$', s: '$$mdi:mouse$$'}
-  - \
+  - PgUp
   - {t: /, s: '?'}
   - $$mdi:arrow-up-bold$$
   - '~'
-  - {t: '''', s: '"'}
+  - HOME
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '[', s: '{'}
@@ -164,11 +164,11 @@ layers:
   - {t: '`', h: '$$mdi:apple-keyboard-shift$$', s: '~'}
   - {t: ']', s: '}'}
   - {t: '$$mdi:menu-left$$', s: '$$mdi:mouse$$'}
-  - ^
+  - PgDn
   - $$mdi:arrow-left-bold$$
   - $$mdi:arrow-down-bold$$
   - $$mdi:arrow-right-bold$$
-  - '"'
+  - END
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - $
@@ -190,8 +190,8 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - $$mdi:mouse-left-click-outline$$
-  - {t: '$$mdi:transfer$$', type: trans}
   - {type: held}
+  - {t: '$$mdi:transfer$$', type: trans}
   - Ctl+Z
   - Ctl+Sft+Z
   - {t: '$$mdi:transfer$$', type: trans}
@@ -256,7 +256,7 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - RGB TOG
   - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: RGB SPD, type: held}
+  - {type: held}
+  - RGB SPD
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
