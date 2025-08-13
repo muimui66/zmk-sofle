@@ -55,8 +55,8 @@ layers:
   - $$mdi:apple-keyboard-shift$$
   - Ctl+K
   - $$mdi:apple-keyboard-command$$
-  - $$mdi:keyboard-esc$$
   - $$mdi:keyboard-tab$$
+  - $$mdi:keyboard-esc$$
   - {t: '$$mdi:backspace$$', type: backspace}
   - {t: '$$mdi:keyboard-return$$', h: layer1}
   - {t: D, h: '$$mdi:apple-keyboard-command$$'}
@@ -119,15 +119,15 @@ layers:
   - {t: '=', s: +}
   - {t: '$$mdi:transfer$$', type: trans}
   - Ctl+$$mdi:volume-off$$
-  - Ctl+S
-  - $$mdi:apple-keyboard-caps$$
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {type: held}
   - $$mdi:mouse-left-click-outline$$
+  - Ctl+$$mdi:keyboard-tab$$
   - Ctl+Z
-  - Ctl+Sft+Z
-  - {t: '$$mdi:transfer$$', type: trans}
+  - Sft+Ctl+Z
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   '2':
@@ -187,8 +187,8 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  - $$mdi:alpha-w-box$$
   - Ctl+S
+  - $$mdi:alpha-w-box$$
   - $$mdi:mouse-left-click-outline$$
   - {type: held}
   - {t: '$$mdi:transfer$$', type: trans}
