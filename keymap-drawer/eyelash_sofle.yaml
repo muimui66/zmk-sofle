@@ -125,7 +125,7 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {type: held}
   - $$mdi:mouse-left-click-outline$$
-  - Ctl+$$mdi:keyboard-tab$$
+  - $$mdi:keyboard-tab$$
   - Ctl+Z
   - Sft+Ctl+Z
   - {t: '$$mdi:transfer$$', type: trans}
