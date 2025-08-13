@@ -79,7 +79,7 @@
 &trans          &kp LEFT_PARENTHESIS  &kp NUMBER_1               &kp NUMBER_2     &kp NUMBER_3             &kp RIGHT_PARENTHESIS    &mmv MOVE_DOWN   &kp BACKSLASH    &kp SLASH                  &kp ASTERISK           &kp TILDE                       &kp DOLLAR  &trans
 &kp LG(V)       &kp LEFT_BRACKET      &mt LEFT_CONTROL NUMBER_4  &mt LEFT_ALT N5  &mt LEFT_SHIFT NUMBER_6  &kp RIGHT_BRACKET        &mmv MOVE_LEFT   &kp AMPERSAND    &mt RIGHT_SHIFT LESS_THAN  &mt RIGHT_ALT PERCENT  &mt RIGHT_CONTROL GREATER_THAN  &kp HASH    &trans
 &trans          &kp COLON             &kp N7                     &kp N8           &kp N9                   &kp N0                   &mmv MOVE_RIGHT  &kp EXCLAMATION  &kp QUESTION               &kp PLUS               &kp MINUS                       &kp EQUAL   &trans
-&kp LC(C_MUTE)  &trans                &trans                     &trans           &trans                   &trans                   &mkp LCLK        &kp LC(TAB)      &kp RC(Z)                  &kp RS(RC(Z))          &trans                          &trans
+&kp LC(C_MUTE)  &trans                &trans                     &trans           &trans                   &trans                   &mkp LCLK        &kp TAB          &kp RC(Z)                  &kp RS(RC(Z))          &trans                          &trans
             >;
 
             display-name = "layer1";
