@@ -66,10 +66,10 @@
 &kp LC(X)        &kp Q             &kp L               &kp U             &kp COMMA         &kp PERIOD          &kp LG(DOWN)         &kp F             &kp W              &kp R              &kp Y                &kp P          &kp DELETE
 &kp LC(C)        &kp E             &mt LEFT_CONTROL I  &mt LEFT_ALT A    &mt LEFT_SHIFT O  &kp MINUS           &kp LG(LEFT_ARROW)   &kp K             &mt RIGHT_SHIFT T  &mt RIGHT_ALT N    &mt RIGHT_CONTROL S  &kp H          &kp RS(ENTER)
 &kp LC(V)        &kp Z             &kp X               &kp C             &kp V             &kp F6              &kp LG(RIGHT_ARROW)  &kp G             &kp D              &kp M              &kp J                &kp B          &kp RIGHT_SHIFT
-&kp LC(K)        &kp LEFT_GUI      &kp TAB             &kp ESCAPE        &kp BACKSPACE     &lt 1 ENTER         &kp LG(D)            &lt 2 SPACE       &lt 3 F17          &kp F15            &kp F14              &kp RIGHT_GUI
+&kp LC(C_MUTE)   &kp LEFT_GUI      &kp TAB             &kp ESCAPE        &kp BACKSPACE     &lt 1 ENTER         &kp LG(D)            &lt 2 SPACE       &lt 3 F17          &kp F15            &kp F14              &kp RIGHT_GUI
             >;
 
-            sensor-bindings = <&scroll_encoder>;
+            sensor-bindings = <&inc_dec_kp C_VOLUME_DOWN C_VOLUME_UP>;
             display-name = "LAYER0";
         };
 
