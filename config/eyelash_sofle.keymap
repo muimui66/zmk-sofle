@@ -69,7 +69,7 @@
 &kp LC(C_MUTE)   &kp LEFT_GUI      &kp TAB             &kp ESCAPE        &kp BACKSPACE     &lt 1 ENTER         &kp LG(D)            &lt 2 SPACE       &lt 3 F17          &kp F15            &kp F14              &kp RIGHT_GUI
             >;
 
-            sensor-bindings = <&inc_dec_kp C_VOLUME_DOWN C_VOLUME_UP>;
+            sensor-bindings = <&inc_dec_kp C_VOLUME_UP C_VOLUME_DOWN>;
             display-name = "LAYER0";
         };
 
@@ -83,7 +83,7 @@
             >;
 
             display-name = "layer1";
-            sensor-bindings = <&inc_dec_kp C_VOLUME_DOWN C_VOLUME_UP>;
+            sensor-bindings = <&scroll_encoder>;
         };
 
         layer_2 {
