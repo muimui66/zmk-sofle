@@ -92,7 +92,7 @@
 &trans     &kp LEFT_PARENTHESIS  &kp LEFT_BRACE         &kp AT_SIGN              &kp RIGHT_BRACE       &kp RIGHT_PARENTHESIS    &mmv MOVE_DOWN   &kp PAGE_UP      &kp SLASH       &kp UP_ARROW    &kp TILDE        &kp HOME   &trans
 &trans     &kp LEFT_BRACKET      &mt LEFT_CONTROL PIPE  &mt LEFT_ALT UNDERSCORE  &mt LEFT_SHIFT GRAVE  &kp RIGHT_BRACKET        &mmv MOVE_LEFT   &kp PAGE_DOWN    &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT_ARROW  &kp END    &trans
 &trans     &kp SEMICOLON         &kp CARET              &kp SQT                  &kp DOUBLE_QUOTES     &trans                   &mmv MOVE_RIGHT  &kp EXCLAMATION  &kp QUESTION    &kp PLUS        &kp MINUS        &kp EQUAL  &trans
-&kp LC(K)  &trans                &trans                 &trans                   &kp LC(S)             &caps_word               &mkp LCLK        &trans           &trans          &trans          &trans           &trans
+&kp LC(K)  &trans                &trans                 &kp LC(S)                &kp CAPS              &caps_word               &mkp LCLK        &trans           &trans          &trans          &trans           &trans
             >;
 
             sensor-bindings = <&inc_dec_kp PAGE_DOWN PAGE_UP>;
