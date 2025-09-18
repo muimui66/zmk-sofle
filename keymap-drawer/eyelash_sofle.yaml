@@ -53,7 +53,7 @@ layers:
   - J
   - B
   - $$mdi:apple-keyboard-shift$$
-  - Ctl+K
+  - Ctl+$$mdi:volume-off$$
   - $$mdi:apple-keyboard-command$$
   - $$mdi:keyboard-tab$$
   - $$mdi:keyboard-esc$$
