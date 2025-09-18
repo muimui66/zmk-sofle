@@ -186,8 +186,8 @@ layers:
   - Ctl+K
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
   - Ctl+S
+  - $$mdi:apple-keyboard-caps$$
   - $$mdi:alpha-w-box$$
   - $$mdi:mouse-left-click-outline$$
   - {type: held}
