@@ -1,20 +1,20 @@
 layout: {zmk_keyboard: eyelash_sofle}
 layers:
   LAYER0:
-  - PRINTSCREEN
   - Gui+1
   - Gui+2
   - Gui+3
   - Gui+4
-  - Gui+5
-  - Gui+$$mdi:arrow-up-bold$$
+  - {t: Gui+5, s: Gui+%}
   - Gui+6
-  - Gui+7
+  - Gui+$$mdi:arrow-up-bold$$
+  - {t: Gui+7, s: Gui+&}
+  - {t: Gui+8, s: Gui+*}
   - Meh+N
   - AltGr+Sft+Ctl+H
   - AltGr+$$mdi:keyboard-esc$$
-  - {t: '$$mdi:transfer$$', type: trans}
-  - Ctl+X
+  - Ctl+S
+  - {t: V, h: '$$mdi:apple-keyboard-command$$'}
   - Q
   - L
   - U
@@ -41,11 +41,11 @@ layers:
   - H
   - {t: '$$mdi:keyboard-return$$', type: enter}
   - Ctl+V
+  - F6
   - Z
   - X
   - C
   - V
-  - F6
   - Gui+$$mdi:arrow-right-bold$$
   - G
   - D
@@ -63,8 +63,8 @@ layers:
   - {t: '$$mdi:keyboard-tab$$', h: '2'}
   - {t: F15, h: '3'}
   - F14
-  - PRINTSCREEN
-  - RIGHT GUI
+  - Ctl+Z
+  - Ctl+Sft+Z
   layer1:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
@@ -92,7 +92,7 @@ layers:
   - '~'
   - $
   - {t: '$$mdi:transfer$$', type: trans}
-  - {t: V, h: '$$mdi:apple-keyboard-command$$'}
+  - $$mdi:apple-keyboard-caps$$
   - {t: '[', s: '{'}
   - {t: '4', h: '$$mdi:apple-keyboard-control$$'}
   - {t: '5', h: '$$mdi:apple-keyboard-option$$', s: '%'}
@@ -105,7 +105,7 @@ layers:
   - {t: '>', h: '$$mdi:apple-keyboard-control$$'}
   - '#'
   - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
+  - F17
   - ':'
   - {t: '7', s: '&'}
   - {t: '8', s: '*'}
@@ -125,9 +125,9 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {type: held}
   - $$mdi:mouse-left-click-outline$$
-  - $$mdi:keyboard-tab$$
-  - Ctl+Z
-  - Sft+Ctl+Z
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   '2':
@@ -187,7 +187,7 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - Ctl+S
-  - $$mdi:apple-keyboard-caps$$
+  - {t: 'Ctl+$$mdi:backspace$$', type: backspace}
   - $$mdi:alpha-w-box$$
   - $$mdi:mouse-left-click-outline$$
   - {type: held}
