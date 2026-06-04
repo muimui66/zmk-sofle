@@ -75,7 +75,7 @@
 
         layer_1 {
             bindings = <
-&trans          &trans                &trans                     &trans           &trans                   &trans                   &mmv MOVE_UP     &trans           &trans                     &trans                 &trans                          &trans      &tog 4
+&trans          &trans                &trans                     &trans           &trans                   &trans                   &mmv MOVE_UP     &trans           &trans                     &trans                 &trans                          &trans      &trans
 &kp CAPS        &kp LEFT_PARENTHESIS  &kp NUMBER_1               &kp NUMBER_2     &kp NUMBER_3             &kp RIGHT_PARENTHESIS    &mmv MOVE_DOWN   &kp BACKSLASH    &kp SLASH                  &kp ASTERISK           &kp TILDE                       &kp DOLLAR  &trans
 &kp LG(V)       &kp LEFT_BRACKET      &mt LEFT_CONTROL NUMBER_4  &mt LEFT_ALT N5  &mt LEFT_SHIFT NUMBER_6  &kp RIGHT_BRACKET        &mmv MOVE_LEFT   &kp AMPERSAND    &mt RIGHT_SHIFT LESS_THAN  &mt RIGHT_ALT PERCENT  &mt RIGHT_CONTROL GREATER_THAN  &kp HASH    &trans
 &kp F17         &kp COLON             &kp N7                     &kp N8           &kp N9                   &kp N0                   &mmv MOVE_RIGHT  &kp EXCLAMATION  &kp QUESTION               &kp PLUS               &kp MINUS                       &kp EQUAL   &trans
@@ -91,7 +91,7 @@
 &trans     &trans                &trans                 &trans                   &trans                &trans                   &mmv MOVE_UP     &trans           &trans          &trans          &trans           &trans     &trans
 &trans     &kp LEFT_PARENTHESIS  &kp LEFT_BRACE         &kp AT_SIGN              &kp RIGHT_BRACE       &kp RIGHT_PARENTHESIS    &mmv MOVE_DOWN   &kp PAGE_UP      &kp SLASH       &kp UP_ARROW    &kp TILDE        &kp HOME   &trans
 &trans     &kp LEFT_BRACKET      &mt LEFT_CONTROL PIPE  &mt LEFT_ALT UNDERSCORE  &mt LEFT_SHIFT GRAVE  &kp RIGHT_BRACKET        &mmv MOVE_LEFT   &kp PAGE_DOWN    &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT_ARROW  &kp END    &trans
-&trans     &kp SEMICOLON         &kp CARET              &kp SQT                  &kp DOUBLE_QUOTES     &trans                   &mmv MOVE_RIGHT  &kp EXCLAMATION  &kp QUESTION    &kp PLUS        &kp MINUS        &kp EQUAL  &trans
+&trans     &kp SEMICOLON         &kp CARET              &kp SQT                  &kp DOUBLE_QUOTES     &trans                   &mmv MOVE_RIGHT  &kp EXCLAMATION  &kp QUESTION    &kp PLUS        &kp MINUS        &kp EQUAL  &tog 4
 &kp LC(K)  &trans                &trans                 &trans                   &trans                &caps_word               &mkp LCLK        &trans           &trans          &trans          &trans           &trans
             >;
 
@@ -112,11 +112,11 @@
 
         layer_4 {
             bindings = <
-&kp ESC  &none  &none  &none  &none  &none        &trans  &none      &none  &none  &none  &none      &tog 4
-&none    &none  &none  &none  &none  &none        &trans  &none      &kp U  &kp I  &kp O  &none      &none
-&none    &none  &kp S  &kp D  &kp F  &none        &trans  &kp H      &kp J  &kp K  &kp L  &none      &kp ENTER
-&none    &none  &none  &none  &none  &none        &trans  &none      &none  &none  &none  &kp SLASH  &none
-&trans   &none  &none  &none  &none  &kp SPACE    &trans  &kp SPACE  &kp N  &none  &none  &none
+&kp ESC  &kp F1  &kp F2  &kp F3  &kp F4  &kp F5       &trans  &none      &none  &none  &none  &none      &tog 4
+&kp TAB  &none   &none   &none   &none   &none        &trans  &none      &kp U  &kp I  &kp O  &none      &kp BACKSPACE
+&none    &none   &kp S   &kp D   &kp F   &none        &trans  &kp H      &kp J  &kp K  &kp L  &none      &kp ENTER
+&none    &none   &none   &none   &none   &none        &trans  &none      &none  &none  &none  &kp SLASH  &none
+&trans   &none   &none   &none   &none   &kp SPACE    &trans  &kp SPACE  &kp N  &none  &none  &none
             >;
         };
     };
